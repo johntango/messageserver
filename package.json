@@ -1,0 +1,24 @@
+{
+  "name": "messageserver",
+  "version": "1.0.0",
+  "description": "Your goal is to run the server in a Docker container.\r You will need to write the file Dockerfile to build an  image with node.js installed. Remember Dockerfile will need to run npm in the container and run the command \r \"node server.js\" to start the server in the container. \r Notice the port server.js is running on",
+  "main": "server.js",
+  "dependencies": {
+    "ws": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johntango/messageserver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johntango/messageserver/issues"
+  },
+  "homepage": "https://github.com/johntango/messageserver#readme"
+}
